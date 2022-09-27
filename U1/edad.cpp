@@ -18,17 +18,20 @@ int main()
             cout << endl
                  << "Primera edad.";
         }
-        else if(edad > 30 && edad < 61){
+        else if (edad > 30 && edad < 61)
+        {
             cout << endl
-                     << "Segunda edad.";
+                 << "Segunda edad.";
         }
-        else if(edad > 60 && edad < 91){
+        else if (edad > 60 && edad < 91)
+        {
             cout << endl
-                     << "Tercera edad.";
+                 << "Tercera edad.";
         }
-        else if(edad > 90 && edad <= 150){
+        else if (edad > 90 && edad <= 150)
+        {
             cout << endl
-                     << "Ya robas oxigeno.";
+                 << "Ya robas oxigeno.";
         }
     }
     else
