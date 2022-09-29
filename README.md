@@ -36,3 +36,14 @@ else
 # UN CAPIBARA
 ![Yo](U1/img/cuidados_de_una_capibara_20185_orig.jpg)
 
+<div align="center">
+<img alt="koku" src ='U1/img/koku.jpg' width = '400'>
+</div>
+
+## Tabla 
+
+  | Color | Código |
+  | ----- | ------ |
+  | Rojo  | #FF0000 |
+  | Azul  | #0000FF |
+  
