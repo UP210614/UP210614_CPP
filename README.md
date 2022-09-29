@@ -1,6 +1,6 @@
 # UP210614_CPP 
 ## Edgar Sandoval Rodríguez
-# EL REY DEL CORRIDO
+
 **Texto en negritas**
 
 __Texto en negritas__
@@ -15,5 +15,7 @@ _ _ _
 _ _ _
 
 
+
+# EL REY DEL CORRIDO
 ![Yo](U1/img/big_pnzdlm43.jpg)
 
