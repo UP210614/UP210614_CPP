@@ -1,12 +1,12 @@
 a# UP210614_CPP 
-## Edgar Sandoval Rodríguez
+<center>## Edgar Sandoval Rodríguez</center>
 
-**Universidad Politécnica de Aguascalientes**
+<center>**Universidad Politécnica de Aguascalientes**
 
 __Ingenieria en Sistemas Computacionales__
 
 *Siempre a la orden pal desorden*
-
+</center>
 
 >Cita de elementos
 _ _ _
@@ -21,6 +21,18 @@ _ _ _
 <li>Execute</li>
 </ol>
 
+***
+* Hola
+* Como estas
+* 
+***
+```
+else
+    {
+        cout << endl
+             << "Esa edad no existe.";
+    }
+```
 # UN CAPIBARA
 ![Yo](U1/img/cuidados_de_una_capibara_20185_orig.jpg)
 
