@@ -20,6 +20,6 @@ _ _ _
 <li>Execute</li>
 </ol>
 
-# EL REY DEL CORRIDO
-![Yo](U1/img/big_pnzdlm43.jpg)
+# UN CAPIBARA
+![Yo](U1/img/cuidados_de_una_capibara_20185_orig.jpg)
 
