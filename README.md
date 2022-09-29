@@ -1,11 +1,12 @@
-# UP210614_CPP 
+a# UP210614_CPP 
 ## Edgar Sandoval Rodríguez
 
-**Texto en negritas**
+**Universidad Politécnica de Aguascalientes**
 
-__Texto en negritas__
+__Ingenieria en Sistemas Computacionales__
 
-*Texto en cursiva*
+*Siempre a la orden pal desorden*
+
 
 >Cita de elementos
 _ _ _
