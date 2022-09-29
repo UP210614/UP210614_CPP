@@ -14,7 +14,11 @@ _ _ _
 3. Ejecutar
 _ _ _
 
-
+<ol>
+<li>Read</li>
+<li>Write</li>
+<li>Execute</li>
+</ol>
 
 # EL REY DEL CORRIDO
 ![Yo](U1/img/big_pnzdlm43.jpg)
