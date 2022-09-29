@@ -46,4 +46,14 @@ else
   | ----- | ------ |
   | Rojo  | #FF0000 |
   | Azul  | #0000FF |
-  
+
+
+  `https://zooguadalajara.com.mx/animales/detalle/83`
+  https://zooguadalajara.com.mx/animales/detalle/83
+  >[CAPIBARAS!!!!](https://zooguadalajara.com.mx/animales/detalle/83)  
+
+<https://zooguadalajara.com.mx/animales/detalle/83> 
+
+  "CAPIBARAS"
+
+  <a href="https://zooguadalajara.com.mx/animales/detalle/83">https://zooguadalajara.com.mx/animales/detalle/83</a>
