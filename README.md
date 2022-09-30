@@ -1,7 +1,13 @@
-a# UP210614_CPP 
-<center>## Edgar Sandoval Rodríguez</center>
+# UP210614_CPP 
+<center>
 
-<center>**Universidad Politécnica de Aguascalientes**
+## Edgar Sandoval Rodríguez
+
+</center>
+
+<center>
+
+**Universidad Politécnica de Aguascalientes**
 
 __Ingenieria en Sistemas Computacionales__
 
