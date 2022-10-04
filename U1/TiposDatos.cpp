@@ -1,7 +1,7 @@
 /*  Unidad 1. Tipos de datos
     Autor: Edgar Sandoval Rodríguez
     Fecha: 15/09/2022
-    Descripción: Muestra los diferentes tipos de datos en c++
+    Descripción: Muestra los diferentes tipos de datos en c++ hola
 */
 
 #include <iostream>
