@@ -1,20 +1,20 @@
-<center><h1><strong>
+<h1 align="center"><strong>
     Welcome to Edgar's ISC Repository
-</strong></h1></center>
+</strong></h1>
 
-<center><h1><strong>
+<h1 align="center"><strong>
     Politechnic University of Aguascalientes
-</strong></h1></center>
+</strong></h1>
 
-<center><h1><strong>
+<h1 align="center"><strong>
     Welcome to Edgar's ISC Repository
-</strong></h1></center>
+</strong></h1>
 
 <br>
 
-<center><h1><strong>
+<h1 align="center"><strong>
         Units
-</center></strong></h1>
+</strong></h1>
 
 <h2><strong><ul>
     <li><a href = "https://github.com/UP210614/UP210614_CPP/tree/main/U1">Unit 1</a></li>
