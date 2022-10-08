@@ -3,7 +3,7 @@
 </strong></FONT SIZE></h1>
 
 <h1 align="center"><FONT SIZE = 6 ><strong>
-    Politechnic University of Aguascalientes
+    Aguascalientes Polithecnic University
 </strong></FONT SIZE></h1>
 
 
