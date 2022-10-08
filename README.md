@@ -1,69 +1,26 @@
-# UP210614_CPP 
-<center>
+<center><h1><strong>
+    Welcome to Edgar's ISC Repository
+</strong></h1></center>
 
-## Edgar Sandoval Rodríguez
+<center><h1><strong>
+    Politechnic University of Aguascalientes
+</strong></h1></center>
 
-</center>
+<center><h1><strong>
+    Welcome to Edgar's ISC Repository
+</strong></h1></center>
 
-<center>
+<br>
 
-**Universidad Politécnica de Aguascalientes**
+<center><h1><strong>
+        Units
+</center></strong></h1>
 
-__Ingenieria en Sistemas Computacionales__
-
-*Siempre a la orden pal desorden*
-</center>
-
->Cita de elementos
-_ _ _
-1. Leer
-2. Escribir
-3. Ejecutar
-_ _ _
-
-<ol>
-<li>Read</li>
-<li>Write</li>
-<li>Execute</li>
-</ol>
-
-***
-* Hola
-* Como estas
-* Bien
-***
-```
-else
-    {
-        cout << endl
-             << "Esa edad no existe.";
-    }
-```
-# UN CAPIBARA
-![Yo](U1/img/cuidados_de_una_capibara_20185_orig.jpg)
-
-<div align="center">
-<img alt="koku" src ='U1/img/koku.jpg' width = '400'>
-</div>
-
-## Tabla 
-
-  | Color | Código |
-  | ----- | ------ |
-  | Rojo  | #FF0000 |
-  | Azul  | #0000FF |
-
-
-  `https://zooguadalajara.com.mx/animales/detalle/83`
-
-
-  https://zooguadalajara.com.mx/animales/detalle/83
-
-  
-  >[CAPIBARAS!!!!](https://zooguadalajara.com.mx/animales/detalle/83)  
-
-<https://zooguadalajara.com.mx/animales/detalle/83> 
-
-  "CAPIBARAS"
-
-  <a href="https://zooguadalajara.com.mx/animales/detalle/83">https://zooguadalajara.com.mx/animales/detalle/83</a>
+<h2><strong><ul>
+    <li><a href = "https://github.com/UP210614/UP210614_CPP/tree/main/U1">Unit 1</a></li>
+    <li><a href = "https://github.com/UP210614/UP210614_CPP/tree/main/U2">Unit 2</a></li>
+    <li><a href = "">Unit 3</a></li>
+    <li><a href = "">Unit 4</a></li>
+</ul>
+</strong>
+</h2>
