@@ -5,7 +5,14 @@
 <h1 align="center"><FONT SIZE = 6 ><strong>
     Aguascalientes Polythecnic University
 </strong></FONT SIZE></h1>
+<div align ="center">
+<img alt="c++" height="100" src="img/../U1/img/c++_logo.png"/>
+</div>
+<div align ="Center">
+<img alt="python" height="100" src="img/../U1/img/python_logo.png"/>
 
+
+</div>
 
 <h1 align="center"><strong>
         Units
