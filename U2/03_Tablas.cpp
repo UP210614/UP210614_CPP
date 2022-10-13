@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    int numero = 0, multiplicar = 0, contador = 1;
+    int numero = 0, multiplicar = 0, contador = 1; char palabra[10];
 
     cout<<"Introduzca su número a multiplicar: ";cin>>numero;
     cout<<endl<<"Hasta que numero quiere multiplicar: ";cin>>multiplicar;
