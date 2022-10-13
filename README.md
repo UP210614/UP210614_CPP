@@ -50,7 +50,7 @@
     </tr>
      <tr> 
       <td>Git pull</td>
-      <td>Download content from a remote repository.</td>
+      <td>Downloads content from a remote repository.</td>
     </tr>
     </tr>
      <tr> 
@@ -64,7 +64,7 @@
       </tr>
      <tr> 
       <td>Git push</td>
-      <td>Uploads the committed changes to github.</td>
+      <td>Uploads the committed files to github.</td>
     </tr>
     </tr>
   </table>
