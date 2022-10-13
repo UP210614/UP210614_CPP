@@ -4,7 +4,7 @@
 
 <h1 align="center"><FONT SIZE = 6 ><strong>
     Aguascalientes Polythecnic University
-<h1>
+</h1>
 </strong></FONT SIZE></h1>
 <div align ="center">
 <img alt="c++" height="100" src="img/../U1/img/c++_logo.png"/>
@@ -12,8 +12,7 @@
 <div align ="Center">
 <img alt="python" height="100" src="img/../U1/img/python_logo.png"/>
 </div>
-</h>
-
+<hr />
 <h1 align="center"><strong>
         Units
 </strong></h1>
@@ -42,30 +41,30 @@
   <table>
     <tr> 
       <th>Git commands</th>
-      <th>Meaning</th>
+      <th>Usage</th>
     </tr>
      <tr> 
       <td>Git clone</td>
-      <td></td>
+      <td>Clones a repository.</td>
     </tr>
     </tr>
      <tr> 
       <td>Git pull</td>
-      <td></td>
+      <td>Download content from a remote repository.</td>
     </tr>
     </tr>
      <tr> 
       <td>Git add</td>
-      <td></td>
+      <td>Adds changes to files in the next commit.</td>
     </tr>
     </tr>
      <tr> 
       <td>Git commit</td>
-      <td></td>
+      <td>Commits changes to files.</td>
       </tr>
      <tr> 
       <td>Git push</td>
-      <td></td>
+      <td>Uploads the committed changes to github.</td>
     </tr>
     </tr>
   </table>
