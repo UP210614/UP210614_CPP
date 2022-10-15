@@ -1,6 +1,9 @@
 # Programas Unidad 1
 
-## 1.Hola mundo
+## 1. Hola mundo
+
+Este código tiene como objetivo imprimir el mensaje   
+"Hola mundo".
 
 - - -
 ```
@@ -12,9 +15,14 @@ int main(){
     return 0;
 }
 ```
+![](img/Screenshot_1.png)
+
 - - - 
 
 ## 2. Par o Impar
+
+Este código tiene como objetivo imprimir el mensaje   
+"Par o impar".
 
 - - -
 ```
@@ -29,9 +37,13 @@ int main(){
     return 0;
 }
 ```
+![](img/Screenshot_2.png)
+
 - - - 
 
 ## 3. Tipos de datos
+
+Este código tiene como objetivo imprimir los tipos de datos en c++.
 
 - - -
 ```
@@ -58,9 +70,13 @@ int main(){
     return 0;
 }
 ```
+![](img/Screenshot_3.png)
+
 - - - 
 
 ## 4. Ciclos
+
+Este código tiene como objetivo demostrar la suma de lo números pares e impares utilizando ciclos.
 
 - - -
 ```
@@ -104,9 +120,13 @@ int main()
 }
 
 ```
+![](img/Screenshot_4.png)
+
 - - - 
 
 ## 5. Edad
+
+Este código tiene como objetivo capturar una edad y utilizar condicionales para decirte en que etapa de edad te encuentras.
 
 - - -
 ```
@@ -156,4 +176,6 @@ int main()
     return 0;
 }
 ```
+![](img/Screenshot_5.png)
+
 - - - 
