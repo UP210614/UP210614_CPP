@@ -1,6 +1,6 @@
 # Programas Unidad 1
 
-## Hola mundo
+## 1.Hola mundo
 
 - - -
 ```
@@ -14,7 +14,7 @@ int main(){
 ```
 - - - 
 
-## Par o Impar
+## 2. Par o Impar
 
 - - -
 ```
@@ -31,7 +31,7 @@ int main(){
 ```
 - - - 
 
-## Tipos de datos
+## 3. Tipos de datos
 
 - - -
 ```
@@ -60,7 +60,7 @@ int main(){
 ```
 - - - 
 
-## Ciclos
+## 4. Ciclos
 
 - - -
 ```
@@ -106,7 +106,7 @@ int main()
 ```
 - - - 
 
-## Edad
+## 5. Edad
 
 - - -
 ```
