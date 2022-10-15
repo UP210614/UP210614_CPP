@@ -28,7 +28,7 @@
     <br>
     <li><a href = "https://github.com/UP210614/UP210614_CPP/tree/main/U3">Unit 3 Functions	</a></li>
     <br>
-    <li><a href = "https://github.com/UP210614/UP210614_CPP/tree/main/U3">Unit 4 Files and arrays</a></li>
+    <li><a href = "https://github.com/UP210614/UP210614_CPP/tree/main/U4">Unit 4 Files and arrays</a></li>
 </ul>
 </strong>
 </h2>
