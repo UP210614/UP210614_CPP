@@ -8,8 +8,10 @@ int factorial(int n);
 
 
 int main(){
+	int n;
+	cout<<"Ingrese un numero: ";cin>>n;
 	
-	cout<<factorial(5);
+	cout<<"El factorial de "<<n<<" es:"<<factorial(n);
 	
 	
 	
