@@ -247,7 +247,8 @@ int main()
                 B.push_back(new bala(N.X() + 2, N.Y() - 1));
             }
         }
-
+		
+		//Se crean balas y se eliminan si llegan al límite
         for (it = B.begin(); it != B.end(); it++) {
             (*it)->mover();
             if ((*it)->fuera()) {
@@ -256,12 +257,14 @@ int main()
                 it = B.erase(it);
             }
         }
-	
+		
+		//Se crean asteroides
         for(itA = A.begin(); itA != A.end(); itA++){
         	(*itA)->moverast();
         	(*itA)->colision(N);
         }
         
+        //Se detectan las colisiones, se eliminan y se posicionan en otra posición
         for(itA = A.begin(); itA != A.end(); itA++){
         	for(it = B.begin(); it != B.end(); it++){
         		if((*itA)->X() == (*it)->X() && ((*itA)->Y()+1 == (*it)->Y() || (*itA)->Y() == (*it)->Y())){
