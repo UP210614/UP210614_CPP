@@ -385,6 +385,7 @@ void RFC(char nombre[], char apellido_paterno[], char apellido_materno[],char fe
 }
 
 ```
+![](Unidad3/Screenshot_8.png)
 ![](Unidad3/Screenshot_9.png)
 
 - - - 
