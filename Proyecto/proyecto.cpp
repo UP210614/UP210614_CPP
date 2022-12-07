@@ -74,6 +74,7 @@ void NAVE::mover() {
     }
 }
 
+//Dibuja los corazones en pantalla 
 void NAVE::dibujar_corazones() {
 
     gotoxy(50, 2); printf("VIDAS %d", vidas);
@@ -86,7 +87,7 @@ void NAVE::dibujar_corazones() {
 
 }
 
-
+//Pinta los limites del juego
 void pintar_limites() {
 
     for (int i = 2; i < 78; i++) {
@@ -103,6 +104,7 @@ void pintar_limites() {
     gotoxy(77,33); printf("%c", 188);
 }
 
+//Se le baja la vida a la nave y aplica la animación de morir
 void NAVE::morir() {
 
     if (corazones == 0) {
@@ -127,7 +129,7 @@ void NAVE::morir() {
 
 }
 
-
+//Objeto asteroide
 class AST {
     int x, y;
 public:
@@ -139,12 +141,15 @@ public:
     void colision(class NAVE &N);
 };
 
+
+//Pinta el asteroide
 void AST::pintarast() {
 
     gotoxy(x, y); printf("%c", 184);
 
 }
 
+//Mueve el asteroide en línea recta hacia abajo
 void AST::moverast() {
 
 
@@ -160,6 +165,7 @@ void AST::moverast() {
         
 }
 
+//Detecta si hay colisiones con la nave
 void AST:: colision(class NAVE &N) {
     if (x >=N.X() && x < N.X()+6 && y >= N.Y() && y <= N.Y()+2) {
         N.cor();
@@ -171,7 +177,7 @@ void AST:: colision(class NAVE &N) {
      }
 }
 
-
+//Objeto bala
 class bala {
     int x, y;
 public:
@@ -181,7 +187,6 @@ public:
        void mover();
        bool fuera();
 };
-
 void bala:: mover() {
     gotoxy(x, y); printf(" ");
     if (y > 4) {
@@ -190,6 +195,7 @@ void bala:: mover() {
     gotoxy(x, y); printf("*");
 }
 
+//Detecta si la bala está afuera
 bool bala::fuera() {
     if (y == 4) {
         return true;
@@ -208,39 +214,48 @@ int main()
     
     pintar_limites();
    
-	   
+	//Se crea el objeto nave
     NAVE N(7, 25, 3, 3);
+    //Se llama el objeto N con su metódo pintar
     N.pintar();
+    //Se llama el objeto N con su metódo dibujar_corazones
     N.dibujar_corazones();
+    //Se inicializa el puntaje en 0
     int score = 0;
     
-	
+	//Se crea una lista de asteroides
     list<AST*> A;
     
+    //Se crea una iterador para la lista de asteroides
     list<AST*>::iterator itA;
+    //Se rellena la lista de asteroides en posiciones aleatorias en la pantalla
     for(int i = 0; i<5; i++){
     	
     	A.push_back(new AST(rand()%75+3, rand()%4+4));
     	
     }
-
+	
+	//Se crea una lista de balas
     list<bala*> B;
+    //Se crea un iterador para la lista de las balas
     list<bala*>::iterator it;
-
+	
+	//Se inicializa el gameover en falso
     bool gameover = false;
     
    
-    
+    //Bucle while que se cumple mientras todavía no sea el game over
     while (gameover != true) {
 		
-	
+		//Se imprime el puntaje
     	gotoxy(4,2); printf("SCORE: %d", score);
     
-		
+		//Detecta si las vidas llegan a 0 y si es el caso gameover 
 		if(N.vida() == 0){
 			gameover = true;
 		}
         
+        //Detecta si se pulsa la tecla z 
         if (_kbhit()) {
             char tecla = _getch();
             if (tecla == 'z') {
@@ -264,7 +279,7 @@ int main()
         	(*itA)->colision(N);
         }
         
-        //Se detectan las colisiones, se eliminan y se posicionan en otra posición
+        //Se detectan las colisiones, se eliminan, se posicionan en otra posición, lo mismo con las balas
         for(itA = A.begin(); itA != A.end(); itA++){
         	for(it = B.begin(); it != B.end(); it++){
         		if((*itA)->X() == (*it)->X() && ((*itA)->Y()+1 == (*it)->Y() || (*itA)->Y() == (*it)->Y())){
@@ -281,6 +296,7 @@ int main()
         	}
         }
         
+        //Se aplica 
         N.morir();
         N.mover();
         Sleep(40);
