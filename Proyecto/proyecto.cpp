@@ -303,8 +303,16 @@ int main()
     
     N.borrar();
     
+    for(itA = A.begin(); itA != A.end(); itA++){
+    		gotoxy((*itA)->X(),(*itA)->Y()); printf(" ");
+        	delete(*itA);
+        }
+        
+        gotoxy(4,2); printf("                                                                     ");
     
     }
+    
+    
     
 	
     return 0;
