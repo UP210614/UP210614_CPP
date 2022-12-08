@@ -169,8 +169,7 @@ void AST::moverast() {
 void AST:: colision(class NAVE &N) {
     if (x >=N.X() && x < N.X()+6 && y >= N.Y() && y <= N.Y()+2) {
         N.cor();
-        N.borrar();
-        N.pintar();
+        
         N.dibujar_corazones();
         x = rand() % 71 + 4;
         y = 4;
@@ -187,6 +186,7 @@ public:
        void mover();
        bool fuera();
 };
+//Mueve la bala en linea recta hacia arriba
 void bala:: mover() {
     gotoxy(x, y); printf(" ");
     if (y > 4) {
@@ -301,8 +301,11 @@ int main()
         N.mover();
         Sleep(40);
     }
-	
+
+	//Detecta si se acabo el juego
     if(gameover == true){
+    	
+    //Elimina los limites del juego
     	for (int i = 2; i < 78; i++) {
         gotoxy(i, 3); printf(" ", 205);
         gotoxy(i, 33); printf(" ", 205);
@@ -316,15 +319,21 @@ int main()
     gotoxy(77,3); printf(" ", 187);
     gotoxy(77,33); printf(" ", 188);
     
-    
+    //Borra la nave
     N.borrar();
     
+    //Borra los asteroides
     for(itA = A.begin(); itA != A.end(); itA++){
     		gotoxy((*itA)->X(),(*itA)->Y()); printf(" ");
         	delete(*itA);
         }
-        
-        gotoxy(4,2); printf("                                                                     ");
+    //Borra las balas
+    for(it = B.begin(); it != B.end(); it++){
+    		gotoxy((*it)->X(),(*it)->Y()); printf(" ");
+        	delete(*it);
+    }
+    //Borra el puntaje, vida y corazones
+    gotoxy(4,2); printf("                                                                     ");
     
     }
     
