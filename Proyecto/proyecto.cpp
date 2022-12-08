@@ -231,11 +231,9 @@ int main()
     list<AST*>::iterator itA;
     //Se rellena la lista de asteroides en posiciones aleatorias en la pantalla
     for(int i = 0; i<5; i++){
-    	
     	A.push_back(new AST(rand()%75+3, rand()%4+4));
     	
     }
-	
 	//Se crea una lista de balas
     list<bala*> B;
     //Se crea un iterador para la lista de las balas
@@ -275,7 +273,7 @@ int main()
             }
         }
 		
-		//Se crean asteroides
+		//Se les aplica los métodos mover y colisión a los asteroides de la lista
         for(itA = A.begin(); itA != A.end(); itA++){
         	(*itA)->moverast();
         	(*itA)->colision(N);
