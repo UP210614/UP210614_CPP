@@ -169,7 +169,8 @@ void AST::moverast() {
 void AST:: colision(class NAVE &N) {
     if (x >=N.X() && x < N.X()+6 && y >= N.Y() && y <= N.Y()+2) {
         N.cor();
-        
+        N.borrar();
+        N.pintar();
         N.dibujar_corazones();
         x = rand() % 71 + 4;
         y = 4;
@@ -244,7 +245,7 @@ int main()
     bool gameover = false;
     
    
-    //Bucle while que se cumple mientras todavía no sea el game over
+    //Bucle while que se cumple mientras todavía no sea game over
     while (gameover != true) {
 		
 		//Se imprime el puntaje
@@ -258,12 +259,13 @@ int main()
         //Detecta si se pulsa la tecla z 
         if (_kbhit()) {
             char tecla = _getch();
+            //Se crean balas en la lista
             if (tecla == 'z') {
                 B.push_back(new bala(N.X() + 2, N.Y() - 1));
             }
         }
 		
-		//Se crean balas y se eliminan si llegan al límite
+		//Se les aplica el método mover a las balas y se eliminan si llegan al límite
         for (it = B.begin(); it != B.end(); it++) {
             (*it)->mover();
             if ((*it)->fuera()) {
